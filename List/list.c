@@ -109,3 +109,10 @@ float list_mean(item *head){
 
     return sum/n;
 }
+
+void read_string(char txt[]){
+    fflush(stdin);
+    fgets(txt, MAX_STRING, stdin);
+    if (txt[strlen(txt)-1]=='\n')
+        txt[strlen(txt)-1]='\0';
+}

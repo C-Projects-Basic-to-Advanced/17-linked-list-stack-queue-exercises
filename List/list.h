@@ -25,5 +25,6 @@ void show_list(item *);
 item* destroy_list(item *);
 item* lowest_item(item *);
 float list_mean(item *);
+void read_string(char txt[]);
 
 #endif
